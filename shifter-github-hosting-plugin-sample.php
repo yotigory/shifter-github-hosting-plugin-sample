@@ -44,7 +44,7 @@ add_action( 'admin_notices', function() {
     $shifter_news = $posts[ mt_rand( 0, count( $posts ) - 1 ) ];
 
     printf(
-        '<p id="shifter"><span dir="ltr" lang="en">%s</span></p>',
+        '<p id="shifter"><span dir="ltr" lang="en">Shifter News: %s</span></p>',
         $shifter_news
     );
 });
